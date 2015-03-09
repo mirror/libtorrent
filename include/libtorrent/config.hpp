@@ -269,6 +269,11 @@ POSSIBILITY OF SUCH DAMAGE.
 #define TORRENT_USE_PREADV 1
 #define TORRENT_USE_PWRITEV 1
 
+// ==== WINRT ===
+#if defined WINAPI_FAMILY_APP
+#define TORRENT_WINRT
+#endif
+
 // ==== SOLARIS ===
 #elif defined sun || defined __sun 
 #define TORRENT_SOLARIS
