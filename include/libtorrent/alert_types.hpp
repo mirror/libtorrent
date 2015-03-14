@@ -45,6 +45,9 @@ POSSIBILITY OF SUCH DAMAGE.
 #include "libtorrent/operations.hpp" // for operation_t enum
 #include "libtorrent/close_reason.hpp"
 
+// c++/cx keyword
+#undef interface
+
 namespace libtorrent
 {
 
